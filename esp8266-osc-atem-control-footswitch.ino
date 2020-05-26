@@ -2,8 +2,8 @@
 #include <WiFiUdp.h>
 #include <OSCMessage.h>
 
-char ssid[] = "OliveNet";          // your network SSID (name)
-char pass[] = "kirapoops";                    // your network password
+char ssid[] = "*";          // your network SSID (name)
+char pass[] = "*";                    // your network password
 
 int footswitch = 13;
 byte current_value;
