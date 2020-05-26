@@ -4,8 +4,8 @@
 #include <OSCBundle.h>
 #include <OSCData.h>
 
-char ssid[] = "OliveNet";          // your network SSID (name)
-char pass[] = "kirapoops";                    // your network password
+char ssid[] = "*";          // your network SSID (name)
+char pass[] = "*";                    // your network password
 
 // A UDP instance to let us send and receive packets over UDP
 WiFiUDP Udp;
