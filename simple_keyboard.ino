@@ -34,7 +34,7 @@ void loop() {
       usbMIDI.sendNoteOn((octave * 12) + scale[i], (1 - current[i]) * velocity, channel);
       delay(debounce);
     }
-  }
+  } 
 
   current[8] = digitalReadFast(octave_down);
   if (current[8] != previous[8]) {
