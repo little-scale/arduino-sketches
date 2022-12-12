@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 65.0, 320.0, 336.0 ],
+		"rect" : [ 34.0, 99.0, 362.0, 353.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 15,
+		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -383,7 +383,7 @@
 					"patching_rect" : [ 870.0, 645.0, 208.0, 194.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 225.0, 210.0, 90.0, 75.0 ],
-					"setminmax" : [ -35.439258575439453, 45.361328125 ],
+					"setminmax" : [ -34.912109375, 66.11328125 ],
 					"signed" : 1,
 					"size" : 3,
 					"spacing" : 5
@@ -634,7 +634,7 @@
 					"patching_rect" : [ 570.0, 645.0, 208.0, 194.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.0, 210.0, 90.0, 75.0 ],
-					"setminmax" : [ -327.504486083984375, 269.621917724609375 ],
+					"setminmax" : [ -391.54052734375, 548.9501953125 ],
 					"signed" : 1,
 					"size" : 3,
 					"spacing" : 5
@@ -1135,7 +1135,7 @@
 					"patching_rect" : [ 270.0, 645.0, 208.0, 194.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 210.0, 90.0, 75.0 ],
-					"setminmax" : [ -1.102189540863037, 1.339341163635254 ],
+					"setminmax" : [ -2.1136474609375, 1.56201171875 ],
 					"signed" : 1,
 					"size" : 3,
 					"spacing" : 5

@@ -52,22 +52,22 @@ BLECharacteristic magChar("19B10013-E8F2-537E-4F6C-D104768A1214", BLERead | BLEN
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial)
-    Serial.println("Started");
+  Serial.println("Started");
 
   if (!IMU.begin()) {
     Serial.println("Failed to initialize IMU!");
     while (1)
       ;
-  }
+  };
 
   if (!BLE.begin()) {
     Serial.println("starting Bluetooth® Low Energy module failed!");
     while (1)
       ;
-  }
+  };
 
-
+  // set device name
+  BLE.setDeviceName("NanoIMU");
 
   // set the local name peripheral advertises
   BLE.setLocalName("IMUService");
